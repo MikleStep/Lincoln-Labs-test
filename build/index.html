@@ -1,0 +1,187 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Code Test</title>
+  <meta name="description" content="">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/main.css">
+  <script src="https://use.fontawesome.com/dff6704e97.js"></script>
+
+  <style>
+    body {
+      font-family: 'Montserrat', serif;
+      font-size: 48px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+      <div class="header__top container">
+        <a href="/" class="header__logo">
+          <img src="https://ll-code-test.s3.amazonaws.com/images/logo.jpg" alt="Logo">
+        </a>
+        <div class="header__contacts">
+          <p class="header__schedule header__contacts--item">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            09:00<span>AM</span> - 05:00<span>PM</span>
+          </p>
+          <a href="tel:+13239134699" class="header__phone header__contacts--item">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            +1 323-913-4699
+          </a>
+          <button type="button" name="header__button" class="header__button">Get a Free Quote</button>
+          
+        </div>
+        <svg id="hamburger-menu-button">
+          <rect id="hamburger-menu-button-topline" height="2px" width="26px" fill="#2D2D2D" x="0" y="0" class="transition">
+          </rect>
+          <rect id="hamburger-menu-button-midline" height="2px" width="26px" x="0" y="10"></rect>
+          <rect id="hamburger-menu-button-bottomline" height="2px" width="26px" x="0" y="20" class="transition"></rect>
+        </svg>
+      </div>
+      <div class="header__bottom">
+        <div class="container">
+          <nav class="header__nav">
+            <a href="#" class="header__nav--item">Home</a>
+            <a href="#" class="header__nav--item">About</a>
+            <a href="#" class="header__nav--item">Our Tours</a>
+            <a href="#" class="header__nav--item">Gallery</a>
+            <a href="#" class="header__nav--item">Blog</a>
+            <a href="#" class="header__nav--item">Contact Us</a>
+            <a href="#" class="header__nav--item">Pages</a>
+          </nav>
+          <div class="header__social">
+            <a class="header__social--icon icon fa fa-facebook" href="#"></a>
+            <a class="header__social--icon icon fa fa-twitter" href="#"></a>
+            <a class="header__social--icon icon fa fa-google-plus" href="#"></a>
+            <a class="header__social--icon icon fa fa-instagram" href="#"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="mobile-menu" class="mobile-menu transition hidden">
+      <nav class="header__nav">
+        <a href="#" class="header__nav--item">Home</a>
+        <a href="#" class="header__nav--item">About</a>
+        <a href="#" class="header__nav--item">Our Tours</a>
+        <a href="#" class="header__nav--item">Gallery</a>
+        <a href="#" class="header__nav--item">Blog</a>
+        <a href="#" class="header__nav--item">Contact Us</a>
+        <a href="#" class="header__nav--item">Pages</a>
+      </nav>
+      <div class="header__social">
+        <a class="header__social--icon icon fa fa-facebook" href="#"></a>
+        <a class="header__social--icon icon fa fa-twitter" href="#"></a>
+        <a class="header__social--icon icon fa fa-google-plus" href="#"></a>
+        <a class="header__social--icon icon fa fa-instagram" href="#"></a>
+      </div>
+      </div>
+  </header>
+  <main>
+    <section class="annoucment">
+      <div class="container">
+        <h1 class="annoucment__title">Explore The World</h1>
+        <p class="annoucment__description">Everyone experiences stress in different ways.
+        <br>
+        Let us guide you, in a personalized journal experience, to overcome your stress.</p>
+        <a href="#" class="annoucment__btn">Find Your Way</a>
+      </div>
+    </section>
+    <div class="container">
+      <section class="team">
+        <h3 class="team__title title">Meet Our Team</h3>
+        <div class="team__wrapper">
+          <div class="team__card">
+            <div class="team__card--img"></div>
+            <div class="team__card--description">
+              <p class="team__card--name">Diana Robinson</p>
+              <p class="team__card--position">Founder, Owner</p>
+              <p class="team__card--phone">+1 323-913-4688</p>
+            </div>
+          </div>
+          <div class="team__card">
+            <div class="team__card--img"></div>
+            <div class="team__card--description">
+              <p class="team__card--name">Peter McMilian</p>
+              <p class="team__card--position">Travel Agent</p>
+              <p class="team__card--phone">+1 323-913-4688</p>
+            </div>
+          </div>
+          <div class="team__card">
+            <div class="team__card--img"></div>
+            <div class="team__card--description">
+              <p class="team__card--name">Jill Peterson</p>
+              <p class="team__card--position">Tour Consultant</p>
+              <p class="team__card--phone">+1 323-913-4688</p>
+            </div>
+          </div>
+          <div class="team__card">
+            <div class="team__card--img"></div>
+            <div class="team__card--description">
+              <p class="team__card--name">James Smith</p>
+              <p class="team__card--position">PR Manager</p>
+              <p class="team__card--phone">+1 323-913-4688</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="blog">
+        <h3 class="blog__title title">Latest Blog Posts</h3>
+        <div class="blog__slider">
+          <div class="blog__card">
+            <p class="blog__mark">Hot deal</p>
+            <div style="background-image: url(https://ll-code-test.s3.amazonaws.com/images/slide2.jpg)" class="blog__img"></div>
+            <div class="blog__description">
+              <p class="blog__name">12 Things Not to Do When You Travel</p>
+              <p class="blog__time">May 17, 2020</p>
+            </div>
+          </div>
+          <div class="blog__card">
+            <p class="blog__mark">special</p>
+            <div style="background-image: url(https://ll-code-test.s3.amazonaws.com/images/slide3.jpg)" class="blog__img"></div>
+            <div class="blog__description">
+              <p class="blog__name">Top 10 Hotels: Rating by GoTravel Travel Experts</p>
+              <p class="blog__time">May 17, 2020</p>
+            </div>
+          </div>
+          <div class="blog__card">
+            <p class="blog__mark">Hot deal</p>
+            <div style="background-image: url(https://ll-code-test.s3.amazonaws.com/images/slide2.jpg)" class="blog__img"></div>
+            <div class="blog__description">
+              <p class="blog__name">12 Things Not to Do When You Travel</p>
+              <p class="blog__time">May 17, 2020</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+   
+  </main>
+  <footer class="footer">
+    <div class="footer__copyright">
+      <p>@ 2020 GoTravel. All rights reserved</p>
+    </div>
+    
+    <div class="footer__socials">
+      <a href="#" class="footer__social icon fa fa-facebook"></a>
+      <a href="#" class="footer__social icon fa fa-twitter"></a>
+      <a href="#" class="footer__social icon fa fa-google-plus"></a>
+      <a href="#" class="footer__social icon fa fa-instagram"></a>
+    </div>
+    <div class="footer__policy">
+      <a href="#">Privacy Policy</a>
+    </div>
+    
+  </footer>
+  
+  <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

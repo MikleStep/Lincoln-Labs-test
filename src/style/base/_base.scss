@@ -1,0 +1,52 @@
+$white: #ffffff;
+$black: #000000;
+$grey: #f6f6f6;
+$darkBlue: #162D44;
+$blue: #4DA1D2; 
+$lightBlue: #3b97cc;
+$caral: #e27878;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  font-family: $montserratRegular;
+}
+body {
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.container {
+  padding: 0 15px;
+  @media (min-width: 575.98px){
+    max-width: 540px;
+    margin: auto;
+    padding: 0;
+  }
+  @media (min-width: 767.98px){
+    max-width: 720px;	
+  }
+  @media (min-width: 991.98px) {
+    max-width: 960px;
+  }
+  @media (min-width: 1199.98px){
+    max-width: 1140px;
+  }
+  @media (min-width: 1399.98px){
+    max-width: 1440px;
+  }
+}
+.title {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 73px;
+  text-align: center;
+}
+.hidden {
+  display: none!important;
+}
