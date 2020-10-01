@@ -10,6 +10,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: $black;
+    &:hover .team__card--img{
+      transform: translateY(-10px);
+      transition: 0.3s;
+    }
     @media screen and (max-width: 992px) {
       width: 49%;
     }
@@ -26,6 +33,7 @@
       background-position: top center;
       border-radius: 50%;
       border: 10px solid $white;
+      transition: 0.3s;
     }
     &:nth-child(1) .team__card--img{
       background-image: url('../img/team/staff1.jpg');

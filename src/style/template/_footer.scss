@@ -30,6 +30,11 @@
   }
   &__social {
     margin-right: 20px;
+    transition: 0.3s;
+    &:hover {
+      color: $blue;
+      transition: 0.3s;
+    }
     @media screen and (max-width: 750px) {
       &:last-child {
         margin-right: 0;
@@ -38,7 +43,15 @@
   }
   &__copyright, &__socials{
     margin-right: 0;
-    margin-bottom: 20px;
-
+    @media screen and (max-width: 750px) {
+      margin-bottom: 20px;
+    }
+  }
+  &__policy a{
+    transition: 0.3s;
+    &:hover {
+      color: $blue;
+      transition: 0.3s;
+    }
   }
 }
